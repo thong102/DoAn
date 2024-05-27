@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "ShowQRCode";
+    Layout = "~/Views/Shared/_LayoutPublic.cshtml";
+}
+
+<h1>Thanh toán qua MoMo</h1>
+<p>Quét mã QR dưới đây để thanh toán:</p>
+<img src="@ViewBag.QRCodeImage" alt="QR Code for Payment" />
+<p>Tổng số tiền cần thanh toán: @ViewBag.TotalAmount VND</p>
+<p>Sau khi thanh toán, vui lòng gửi bill thanh toán qua email hoặc phương tiện liên lạc dưới đây:</p>
+<p>Email: your-email@example.com</p>
+<p>Điện thoại: +84 123 456 789</p>
